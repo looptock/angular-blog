@@ -23,6 +23,7 @@
 
 .small-card-title > h1 > a {
     text-decoration: none;
+    color: black;
 }
 
 .container-small-card-separator {
