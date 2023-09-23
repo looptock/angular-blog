@@ -8,5 +8,5 @@
     <div class="big-card-description">
         <p>{{ cardDescription }}</p>
     </div>
-    <a href="#" target="_blank" class="buttonClass">Leia mais...</a>
+    <a [routerLink]="['content', id]" target="_blank" class="buttonClass">Leia mais...</a>
 </div>

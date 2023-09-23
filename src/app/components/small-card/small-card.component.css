@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.9rem;
 }
 
 .small-card-title > h1 > a {

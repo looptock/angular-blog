@@ -15,7 +15,8 @@
     color: black;
 }
 
-.container-menu-bar .social-icons > ul {
+.container-menu-bar .container-social-icons > ul {
+    margin-left: 165px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +26,9 @@
     border-radius: 10rem;
 }
 
-.container-menu-bar .social-icons > ul > li {
+
+
+.container-menu-bar .container-social-icons > ul > li {
     margin-right: 10px;
     list-style: none;
 }
