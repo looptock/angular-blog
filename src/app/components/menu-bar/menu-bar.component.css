@@ -1,8 +1,8 @@
 .container-menu-bar {
-    margin-top: 20px;
+    margin-top: 2.5rem;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .container-logo {
@@ -13,6 +13,7 @@
 .container-logo > a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 .container-menu-bar .container-social-icons > ul {
@@ -29,12 +30,22 @@
 
 
 .container-menu-bar .container-social-icons > ul > li {
-    margin-right: 10px;
     list-style: none;
 }
 
 .icon {
-    height: 25px;
+    height: 2rem;
+    position: relative;
+    display: inline-block;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+    filter: grayscale(0%);
+    transform: translateY(-5px);
 }
 
 .container-pages {
@@ -47,5 +58,13 @@
     margin-right: 10px;
     text-decoration: none;
     color: black;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 1rem;
+}
+
+.container-pages > a:hover {
+    background-color: #e6e6e6;
+    border-radius: 1rem;
 }
 

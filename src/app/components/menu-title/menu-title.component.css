@@ -1,15 +1,32 @@
 .menu-title-container {
     color: rgb(15, 15, 15);
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Início da animação: opacidade 0 */
+    }
+    100% {
+        opacity: 1; /* Fim da animação: opacidade 1 (totalmente visível) */
+    }
 }
 
 .menu-title-container > h1 {
     margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 250px;
+    font-size: 10rem;
     display: flex;
     justify-content: center;
+    margin-bottom: -1rem
 }
 
-.menu-title-container > hr {
-    opacity: 25%;
+.menu-title-container > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(160, 160, 160);
+    margin-bottom: 2rem ;
 }
+
