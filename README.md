@@ -8,15 +8,9 @@
   Uma plataforma para blog pessoal
 </p>
 
-<p align="center">
-  <img alt="Layout da aplicação" width="100%" src="./.github/print-pokedex-1.png" />
-</p>
-
 ## 💻 Projeto
 
 Meu blog pessoal, construído com Angular, é um espaço dedicado à exploração dos meus projetos criativos, compartilhando dicas valiosas e narrando minha jornada pessoal. Aqui, você encontrará insights, lições aprendidas e inspiração provenientes das minhas experiências e empreendimentos, tudo reunido em um único lugar para enriquecer sua própria jornada e criatividade.
-
-- [Clique aqui para ver o projeto](https://looptock.github.io/js-developer-pokedex/)
 
 ### Funcionalidades
 
