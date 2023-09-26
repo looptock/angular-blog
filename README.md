@@ -1,27 +1,60 @@
-# AngularBlog
+# Trilha Angular - Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+<p align="center">
+  <img alt="Pokedex logo" src="./src/assets/imagens/Tela blog.png" width="400px" />
+</p>
 
-## Development server
+<p align="center" fontSize="60px">
+  Uma plataforma para blog pessoal
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+  <img alt="Layout da aplicação" width="100%" src="./.github/print-pokedex-1.png" />
+</p>
 
-## Code scaffolding
+## 💻 Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Meu blog pessoal, construído com Angular, é um espaço dedicado à exploração dos meus projetos criativos, compartilhando dicas valiosas e narrando minha jornada pessoal. Aqui, você encontrará insights, lições aprendidas e inspiração provenientes das minhas experiências e empreendimentos, tudo reunido em um único lugar para enriquecer sua própria jornada e criatividade.
 
-## Build
+- [Clique aqui para ver o projeto](https://looptock.github.io/js-developer-pokedex/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Funcionalidades
 
-## Running unit tests
+- [x] **Menu Suspenso**: Menu feito com CSS ao qual fica travado na parte superior da página.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [x] **Efeito nos ícones de rede social**: Efeito ao passar o mouse em cima dos ícones.
 
-## Running end-to-end tests
+- [x] **Efeito no título principal da página**: Animação simples das letras aparecendo assim que o usuário entra na página
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [x] **Animação dos cards**: Animação básica dos cards ao passar o mouse
 
-## Further help
+- [x] **Footer**: Criação de um footer com uma animação básica. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Aprimoramentos em desenvolvimento
+
+- [ ] **Modo Escuro**: Funcionalidade para alterar as cores da página. 
+
+- [ ] **Atualização dos conteúdos**: Atualizar os conteúdos dos cards
+
+### Conceitos abordados
+
+- Uso de flexbox para alinhar e ajustar elementos na página.
+
+- Manipulação de elementos para criação das animações.
+
+- Comandos básicos do Angular .
+
+- Utilização de componentes para compor uma aplicação.
+
+- Implementação de páginas dinâmicas utilizando TypeScript e o Angular
+
+### Notas
+
+- Ainda em fase de desenvolvimento, novas funcionalidades e otimização do código em breve.
+
+## :rocket: Tecnologias
+
+-  [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+-  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+-  [Angular](https://angular.io/)
+-  [TypeScript](https://www.typescriptlang.org/pt/docs/)

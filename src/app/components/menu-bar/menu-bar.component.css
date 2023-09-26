@@ -3,6 +3,13 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
 }
 
 .container-logo {
@@ -12,18 +19,18 @@
 
 .container-logo > a {
     text-decoration: none;
-    color: black;
+    color: #292929;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .container-menu-bar .container-social-icons > ul {
-    margin-left: 174px;
+    margin-left: 159px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: .5rem 2.2rem;
     background-color: #f9fafb;
-    width: 30rem;
     border-radius: 10rem;
 }
 

@@ -12,6 +12,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.container-big-card:hover {
+    transform: translateY(-5px);
 }
 
 .big-card-title {
@@ -40,7 +46,7 @@
 }
 
 .big-card-photo > img {
-    height: 264px;
+    height: 205px;
     border-radius: 15px
 }
 
@@ -62,11 +68,16 @@
     border-top-right-radius: 23px;
     border-bottom-right-radius: 23px;
     background: linear-gradient(#181818, #3b3b3b);
-  }
-  
-  .buttonClass:hover {
+    transition: transform 0.3s;
+}
+
+.buttonClass box-shadow {
+    filter: blur(1rem);;
+}
+
+.buttonClass:hover {
     transform: scale(1.1);
     transition: 0.5s;
     background: linear-gradient(#535353, #868686);
-  }
+}
                 
